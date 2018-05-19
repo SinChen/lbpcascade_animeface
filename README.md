@@ -9,7 +9,8 @@ Original release since 2011 at [OpenCVによるアニメ顔検出ならlbpcascad
 Download and place the cascade file into your project directory.
 
     wget https://raw.githubusercontent.com/nagadomi/lbpcascade_animeface/master/lbpcascade_animeface.xml
-
+    
+    圖片放至image資料夾後執行
 ### Python Example
 
 ```python
