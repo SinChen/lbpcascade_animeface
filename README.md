@@ -47,7 +47,7 @@ detect(sys.argv[1])
 ```
 Run
 
-    python detect.py imas.jpg
+    python detect2.py
 
 ![result](https://raw.githubusercontent.com/nagadomi/lbpcascade_animeface/master/figure/imas.png)
 
