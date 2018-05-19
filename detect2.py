@@ -8,6 +8,11 @@ input_folder = current_folder + '/image/'
 output_folder = current_folder + '/result/'
 output_face_folder = current_folder + '/output_face/'
 
+if not os.path.isdir(output_folder):
+    os.mkdir(output_folder)
+if not os.path.isdir(output_face_folder):
+    os.mkdir(output_face_folder)
+    
 def detect(inputfolder, cascade_file = current_folder + '/lbpcascade_animeface.xml'):
     if not os.path.isfile(cascade_file):
         raise RuntimeError("%s: not found" % cascade_file)
